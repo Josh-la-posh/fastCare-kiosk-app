@@ -1,0 +1,58 @@
+.patientNumber {
+  height: calc(100vh - 120px);
+}
+
+.patientNumberContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 288px;
+  margin-left: 112px;
+  padding-right: 8px;
+  width: 776px;
+  height: 444px;
+}
+
+.patientNumberTitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1E2024;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+
+.patientNumberDesc {
+    font-family: 'Avenir';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    color: #636B75;
+}
+
+.patientNumberForm {
+  width: 771px;
+  margin-top: 94px;
+}
+
+.patientNumberInput {
+    width: 100%;
+    height: 98px;
+    padding-left: 11px;
+}
+
+.patientNumberInput::placeholder {
+    font-size: 22px;
+    font-weight: 400;
+    color: #838D95;
+}
+
+.patientNumberBtn {
+    height: 88px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 28px;
+    font-weight: 800;
+    background-color: #1B88DF;
+    margin-top: 40px;
+}
