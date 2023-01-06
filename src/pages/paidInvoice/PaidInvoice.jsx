@@ -31,7 +31,7 @@ export const AllInvoice = () => {
         </Row>
         <div className={classes.outstandingInvoices}>
           <div className={classes.outstandingInvoiceTitle}>
-            <p>All Invoices</p>
+            <p>Paid Invoices</p>
             <span>
               <img src="./../icons/filter.png" className={classes.icon} />
               <p>Filter by;</p>
@@ -58,61 +58,7 @@ export const AllInvoice = () => {
               <td>IN19530</td>
               <td>5</td>
               <td>N14,000.00</td>
-              <td className={classes.outstanding}>outstanding</td>
-              <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input type="checkbox" />
-              </td>
-              <td className={classes.date}>
-                <span>02/11/2020</span>
-                <span className={classes.time}>10:30:20am</span>
-              </td>
-              <td>RE857309</td>
-              <td>3</td>
-              <td>N3,000.00</td>
-              <td className={classes.outstanding}>outstanding</td>
-              <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input type="checkbox" />
-              </td>
-              <td className={classes.date}>
-                <span>02/11/2020</span>
-                <span className={classes.time}>10:30:20am</span>
-              </td>
-              <td>IN19530</td>
-              <td>1</td>
-              <td>N1,500.00</td>
               <td className={classes.paid}>Paid</td>
-              <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input type="checkbox" />
-              </td>
-              <td className={classes.date}>
-                <span>02/11/2020</span>
-                <span className={classes.time}>10:30:20am</span>
-              </td>
-              <td>IN19530</td>
-              <td>1</td>
-              <td>N1,500.00</td>
-              <td className={classes.outstanding}>outstanding</td>
               <td>
                 <Button type="primary" className={classes.btn}>
                   View
@@ -148,7 +94,7 @@ export const AllInvoice = () => {
               <td>IN19530</td>
               <td>1</td>
               <td>N1,500.00</td>
-              <td className={classes.outstanding}>outstanding</td>
+              <td className={classes.paid}>Paid</td>
               <td>
                 <Button type="primary" className={classes.btn}>
                   View
@@ -172,8 +118,7 @@ export const AllInvoice = () => {
                   View
                 </Button>
               </td>
-            </tr>
-          </table>
+            </tr>          </table>
         </div>
       </div>
     </div>
