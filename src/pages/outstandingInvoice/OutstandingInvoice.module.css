@@ -1,0 +1,116 @@
+.patientRetrieveBill {
+  height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.patientRetrieveBillContainer {
+  width: 1000px;
+}
+
+.patientDetails {
+  margin: 189px 0px 110px 0px;
+  padding: 0px 37px 0px 10px;
+}
+
+.patientDetail {
+  font-size: 24px;
+  font-weight: 400;
+  color: #343434;
+  width: 100%;
+}
+
+.outstandingInvoices {
+  margin-top: 41px;
+  margin-bottom: 54px;
+}
+
+.outstandingInvoiceTitle {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  margin-bottom: 41px;
+  margin-left: 23px;
+}
+
+.outstandingInvoiceTitle > p {
+  font-size: 24px;
+  font-weight: 800;
+  color: #01467d;
+}
+
+.outstandingInvoiceTitle span {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 136px;
+  height: 48px;
+  border: 1px solid #cde5f9;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.outstandingInvoiceTitle span .icon {
+  width: 18.94px;
+  height: 23px;
+}
+
+.outstandingInvoiceTable {
+  width: 100%;
+}
+
+.outstandingInvoiceTableHeader {
+  height: 58px;
+}
+
+.outstandingInvoiceTableHeader th {
+  text-align: left;
+  margin-right: 40px;
+  line-height: 26px;
+  font-weight: 800;
+  font-size: 20px;
+  color: #505050;
+}
+
+tr td {
+  height: 89px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3e414c;
+}
+
+tr td input {
+  width: 25px;
+  height: 25px;
+  border: 0.5px solid #dcdee6;
+  border-radius: 2px;
+}
+
+tr .date {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+tr .time {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.outstanding {
+  color: #eda12f;
+  font-weight: 800;
+}
+
+.btn {
+  background-color: #1b88df;
+  width: 90px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 0.5px solid #9fcef3;
+}
