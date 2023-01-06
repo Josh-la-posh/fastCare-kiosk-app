@@ -1,5 +1,7 @@
 .patientNumber {
   height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
 }
 
 .patientNumberContainer {
@@ -22,11 +24,10 @@
 }
 
 .patientNumberDesc {
-    font-family: 'Avenir';
     font-size: 25px;
     font-weight: 500;
     line-height: 32px;
-    letter-spacing: -0.25px;
+    width: 771px;
     color: #636B75;
 }
 

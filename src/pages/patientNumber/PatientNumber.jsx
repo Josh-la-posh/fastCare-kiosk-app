@@ -1,5 +1,6 @@
-import { Button } from 'antd';
+import { Link } from 'react-router-dom';
 import classes from './PatientNumber.module.css';
+import { Button } from 'antd';
 
 export const PatientNumber = () => {
   return (
@@ -13,7 +14,7 @@ export const PatientNumber = () => {
         </p>
         <form className={classes.patientNumberForm}>
           <input type="num" placeholder='Enter invoice number' className={classes.patientNumberInput} />
-          <Button type='primary' className={classes.patientNumberBtn} block>Submit</Button>
+          <Link to='/outinvoice'><Button type='primary' className={classes.patientNumberBtn} block>Submit</Button></Link>
         </form>
       </div>
     </div>
