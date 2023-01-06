@@ -104,6 +104,13 @@ tr .time {
 .outstanding {
   color: #eda12f;
   font-weight: 800;
+  line-height: 4.32px;
+}
+
+.paid {
+  color: #18b368;
+  font-weight: 800;
+  line-height: 4.32px;
 }
 
 .btn {

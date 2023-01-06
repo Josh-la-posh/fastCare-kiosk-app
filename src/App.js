@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { AllInvoice } from './pages/allInvoice/AllInvoice';
 import { Home } from './pages/Home';
 import { OutstandingInvoice } from './pages/outstandingInvoice/OutstandingInvoice';
 import { PatientNumber } from './pages/patientNumber/PatientNumber';
@@ -11,6 +12,7 @@ function App() {
         <Route index element={<Home />}/>
         <Route path='/pnum' element={<PatientNumber />}/>
         <Route path='/outinvoice' element={<OutstandingInvoice />}/>
+        <Route path='/allinvoice' element={<AllInvoice />}/>
       </Route>
     </Routes>
     </BrowserRouter>
