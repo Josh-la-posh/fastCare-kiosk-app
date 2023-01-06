@@ -1,5 +1,6 @@
 import classes from "./OutstandingInvoice.module.css";
 import { Col, Row, Button } from "antd";
+import { Link } from "react-router-dom";
 
 export const OutstandingInvoice = () => {
   return (
@@ -58,7 +59,7 @@ export const OutstandingInvoice = () => {
               <td>N14,000.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>View</Button>
+                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
               </td>
             </tr>
             <tr>
@@ -72,7 +73,7 @@ export const OutstandingInvoice = () => {
               <td>N3,000.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>View</Button>
+                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
               </td>
             </tr>
             <tr>
@@ -86,7 +87,7 @@ export const OutstandingInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>View</Button>
+                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
               </td>
             </tr>
             <tr>
@@ -100,7 +101,7 @@ export const OutstandingInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>View</Button>
+                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
               </td>
             </tr>
             <tr>
@@ -114,7 +115,7 @@ export const OutstandingInvoice = () => {
               <td>N3,000.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>View</Button>
+                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
               </td>
             </tr>
             <tr>
@@ -128,7 +129,7 @@ export const OutstandingInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>View</Button>
+                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
               </td>
             </tr>
           </table>
