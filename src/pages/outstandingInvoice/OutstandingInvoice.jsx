@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 export const OutstandingInvoice = () => {
   return (
     <div className={classes.patientRetrieveBill}>
+      {/* CONTAINER */}
+
       <div className={classes.patientRetrieveBillContainer}>
+        {/* PATIENT DETAILS */}
+
         <Row className={classes.patientDetails}>
           <Col span={12}>
             <div
@@ -30,6 +34,9 @@ export const OutstandingInvoice = () => {
             </div>
           </Col>
         </Row>
+
+        {/* OUTSTANDING INVOICE SECTION */}
+
         <div className={classes.outstandingInvoices}>
           <div className={classes.outstandingInvoiceTitle}>
             <p>Outstanding Invoices</p>
@@ -40,7 +47,7 @@ export const OutstandingInvoice = () => {
           </div>
           <table className={classes.outstandingInvoiceTable}>
             <tr className={classes.outstandingInvoiceTableHeader}>
-                <th></th>
+              <th></th>
               <th>Invoice Date</th>
               <th>Invoice Number</th>
               <th>Total Items</th>
@@ -49,7 +56,9 @@ export const OutstandingInvoice = () => {
               <th></th>
             </tr>
             <tr>
-                <td><input type="checkbox" /></td>
+              <td>
+                <input type="checkbox" />
+              </td>
               <td className={classes.date}>
                 <span>02/11/2020</span>
                 <span className={classes.time}>10:30:20am</span>
@@ -59,11 +68,17 @@ export const OutstandingInvoice = () => {
               <td>N14,000.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
+                <Link to="/payitem/1">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
-                <td><input type="checkbox" /></td>
+              <td>
+                <input type="checkbox" />
+              </td>
               <td className={classes.date}>
                 <span>02/11/2020</span>
                 <span className={classes.time}>10:30:20am</span>
@@ -73,11 +88,17 @@ export const OutstandingInvoice = () => {
               <td>N3,000.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
+                <Link to="/payitem/1">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
-                <td><input type="checkbox" /></td>
+              <td>
+                <input type="checkbox" />
+              </td>
               <td className={classes.date}>
                 <span>02/11/2020</span>
                 <span className={classes.time}>10:30:20am</span>
@@ -87,11 +108,17 @@ export const OutstandingInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
+                <Link to="/payitem/1">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
-                <td><input type="checkbox" /></td>
+              <td>
+                <input type="checkbox" />
+              </td>
               <td className={classes.date}>
                 <span>02/11/2020</span>
                 <span className={classes.time}>10:30:20am</span>
@@ -101,11 +128,17 @@ export const OutstandingInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
+                <Link to="/payitem/1">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
-                <td><input type="checkbox" /></td>
+              <td>
+                <input type="checkbox" />
+              </td>
               <td className={classes.date}>
                 <span>02/11/2020</span>
                 <span className={classes.time}>10:30:20am</span>
@@ -115,11 +148,17 @@ export const OutstandingInvoice = () => {
               <td>N3,000.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
+                <Link to="/payitem/1">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
-                <td><input type="checkbox" /></td>
+              <td>
+                <input type="checkbox" />
+              </td>
               <td className={classes.date}>
                 <span>02/11/2020</span>
                 <span className={classes.time}>10:30:20am</span>
@@ -129,7 +168,11 @@ export const OutstandingInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Link to='/payitem/1'><Button type="primary" className={classes.btn}>View</Button></Link>
+                <Link to="/payitem/1">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
           </table>

@@ -16,19 +16,19 @@
 }
 
 .patientNumberTitle {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1E2024;
-    line-height: 44px;
-    margin-bottom: 16px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1e2024;
+  line-height: 44px;
+  margin-bottom: 16px;
 }
 
 .patientNumberDesc {
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 32px;
-    width: 771px;
-    color: #636B75;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 771px;
+  color: #636b75;
 }
 
 .patientNumberForm {
@@ -37,23 +37,23 @@
 }
 
 .patientNumberInput {
-    width: 100%;
-    height: 98px;
-    padding-left: 11px;
+  width: 100%;
+  height: 98px;
+  padding-left: 11px;
 }
 
 .patientNumberInput::placeholder {
-    font-size: 22px;
-    font-weight: 400;
-    color: #838D95;
+  font-size: 22px;
+  font-weight: 400;
+  color: #838d95;
 }
 
 .patientNumberBtn {
-    height: 88px;
-    color: #fff;
-    border-radius: 4px;
-    font-size: 28px;
-    font-weight: 800;
-    background-color: #1B88DF;
-    margin-top: 40px;
+  height: 88px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 28px;
+  font-weight: 800;
+  background-color: #1b88df;
+  margin-top: 40px;
 }

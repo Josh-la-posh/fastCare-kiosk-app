@@ -68,8 +68,8 @@ tr td {
 }
 
 .discount {
-  margin-bottom: 22px;
   font-size: 24px;
+  margin-left: 21px;
 }
 
 .discount p {
@@ -81,6 +81,12 @@ tr td {
   color: #f51919;
   font-weight: 800;
   margin-left: 299px;
+}
+
+.grandTotal {
+  margin-top: 22px;
+  margin-left: 21px;
+  align-items: center;
 }
 
 .grandTotal h4 {
@@ -96,6 +102,19 @@ tr td {
   line-height: 40px;
   color: #292b33;
   margin-left: 299px;
+}
+
+.grandTotal span {
+  width: 102px;
+  height: 36px;
+  padding: 4px 10px;
+  background: rgba(27, 136, 223, 0.2);
+  border-radius: 2px;
+  color: #1b88df;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  margin-left: 308px;
 }
 
 .paymentInvoiceBtnContainer {

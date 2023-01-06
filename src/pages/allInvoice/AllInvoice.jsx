@@ -1,10 +1,15 @@
 import classes from "./../outstandingInvoice/OutstandingInvoice.module.css";
 import { Col, Row, Button } from "antd";
+import { Link } from "react-router-dom";
 
 export const AllInvoice = () => {
   return (
     <div className={classes.patientRetrieveBill}>
+      {/* CONTAINER */}
+
       <div className={classes.patientRetrieveBillContainer}>
+        {/* PATIENT DETAILS */}
+
         <Row className={classes.patientDetails}>
           <Col span={12}>
             <div
@@ -29,6 +34,9 @@ export const AllInvoice = () => {
             </div>
           </Col>
         </Row>
+
+        {/* INVOICE SECTION */}
+
         <div className={classes.outstandingInvoices}>
           <div className={classes.outstandingInvoiceTitle}>
             <p>All Invoices</p>
@@ -60,9 +68,11 @@ export const AllInvoice = () => {
               <td>N14,000.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
+                <Link to="/payviawallet">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
@@ -78,9 +88,11 @@ export const AllInvoice = () => {
               <td>N3,000.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
+                <Link to="/payviawallet">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
@@ -96,9 +108,11 @@ export const AllInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.paid}>Paid</td>
               <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
+                <Link to="/payviawallet">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
@@ -114,9 +128,11 @@ export const AllInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
+                <Link to="/payviawallet">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
@@ -132,9 +148,11 @@ export const AllInvoice = () => {
               <td>N3,000.00</td>
               <td className={classes.paid}>Paid</td>
               <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
+                <Link to="/payviawallet">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
@@ -150,9 +168,11 @@ export const AllInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.outstanding}>outstanding</td>
               <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
+                <Link to="/payviawallet">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
             <tr>
@@ -168,9 +188,11 @@ export const AllInvoice = () => {
               <td>N1,500.00</td>
               <td className={classes.paid}>Paid</td>
               <td>
-                <Button type="primary" className={classes.btn}>
-                  View
-                </Button>
+                <Link to="/payviawallet">
+                  <Button type="primary" className={classes.btn}>
+                    View
+                  </Button>
+                </Link>
               </td>
             </tr>
           </table>

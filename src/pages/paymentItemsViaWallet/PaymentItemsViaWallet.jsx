@@ -1,8 +1,8 @@
-import classes from "./PaymentItems.module.css";
-import { Col, Row, Button } from "antd";
+import classes from "./../paymentItems/PaymentItems.module.css";
+import { Col, Row } from "antd";
 import { Link } from "react-router-dom";
 
-export const PaymentItems = () => {
+export const PaymentItemsViaWallet = () => {
   return (
     <div className={classes.patientRetrieveBill}>
       <div className={classes.patientRetrieveBillContainer}>
@@ -92,7 +92,7 @@ export const PaymentItems = () => {
         </table>
         <Row className={classes.discount}>
           <Col span={12}>
-            <p>Discount Amount</p>
+            <p>Discount Amount:</p>
           </Col>
           <Col span={12}>
             <span>N0</span>
@@ -100,17 +100,24 @@ export const PaymentItems = () => {
         </Row>
         <Row className={classes.grandTotal}>
           <Col span={12}>
-            <h4>Grand Total</h4>
+            <h4>Grand Total:</h4>
           </Col>
           <Col span={12}>
             <h3>N16,640.00</h3>
           </Col>
         </Row>
-        <div className={classes.paymentInvoiceBtnContainer}>
-          <Link to="/allinvoice">
-            <Button className={classes.paymentInvoiceBtn}>Make payment</Button>
-          </Link>
-        </div>
+        <Row className={classes.grandTotal}>
+          <Col span={12}>
+            <h4>Payment Methods:</h4>
+          </Col>
+          <Col span={12}>
+            <Link to="/paidinvoice">
+              <span>
+                <small>Wallet</small>
+              </span>
+            </Link>
+          </Col>
+        </Row>
       </div>
     </div>
   );

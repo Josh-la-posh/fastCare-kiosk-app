@@ -1,9 +1,10 @@
 import classes from "./../outstandingInvoice/OutstandingInvoice.module.css";
 import { Col, Row, Button } from "antd";
 
-export const AllInvoice = () => {
+export const PaidInvoice = () => {
   return (
     <div className={classes.patientRetrieveBill}>
+      
       <div className={classes.patientRetrieveBillContainer}>
         <Row className={classes.patientDetails}>
           <Col span={12}>
@@ -118,7 +119,8 @@ export const AllInvoice = () => {
                   View
                 </Button>
               </td>
-            </tr>          </table>
+            </tr>{" "}
+          </table>
         </div>
       </div>
     </div>
