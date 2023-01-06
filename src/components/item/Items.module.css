@@ -1,0 +1,118 @@
+.patientRetrieveBill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.patientRetrieveBillContainer {
+  width: 1000px;
+}
+
+.patientInvoiceNumber {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 52px;
+  letter-spacing: -0.5px;
+  color: #dcdee6;
+  margin: 66px 0px;
+  text-align: center;
+}
+
+.patientDetails {
+  margin-bottom: 135.1px;
+  padding: 0px 24px 0px 10px;
+}
+
+.patientDetail {
+  font-size: 24px;
+  font-weight: 400;
+  color: #343434;
+  width: 100%;
+}
+
+.paymentItemsTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 29.23px;
+  line-height: 35.38px;
+  color: #343434;
+}
+
+.paymentItemsTable {
+  width: 100%;
+  margin: 17px 0 40px 0;
+  padding: 0 18px;
+}
+
+.paymentItemsTableHeader {
+  height: 63px;
+  border: 1.7px solid #000;
+}
+
+.paymentItemsTableHeader th {
+  text-align: left;
+  line-height: 26px;
+  font-weight: 800;
+  font-size: 20px;
+  color: #505050;
+}
+
+tr td {
+  height: 89px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #545766;
+  border-bottom: 0.5px solid #bbbfcc;
+}
+
+.discount {
+  font-size: 24px;
+  margin-left: 21px;
+}
+
+.discount p {
+  font-weight: 500;
+  color: #545766;
+}
+
+.discount span {
+  color: #f51919;
+  font-weight: 800;
+  margin-left: 299px;
+}
+
+.grandTotal {
+  margin-top: 22px;
+  margin-left: 21px;
+  align-items: center;
+}
+
+.grandTotal h4 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 34px;
+  color: #292b33;
+}
+
+.grandTotal h3 {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+  color: #292b33;
+  margin-left: 299px;
+}
+
+.grandTotal span {
+  width: 102px;
+  height: 36px;
+  padding: 4px 10px;
+  background: rgba(27, 136, 223, 0.2);
+  border-radius: 2px;
+  color: #1b88df;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  margin-left: 308px;
+}

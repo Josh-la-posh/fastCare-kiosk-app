@@ -1,0 +1,31 @@
+.paymentMethodContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.paymentMethod {
+  width: 1000px;
+  margin-top: 22px;
+  align-items: center;
+}
+
+.paymentMethod h4 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 34px;
+  margin-left: 21px;
+  color: #292b33;
+}
+
+.paymentMethod span {
+  width: 102px;
+  height: 36px;
+  padding: 4px 10px;
+  background: rgba(27, 136, 223, 0.2);
+  border-radius: 2px;
+  color: #1b88df;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  margin-left: 329px;
+}
